@@ -70,10 +70,10 @@ idle cost cannot yet be attributed safely.
 
 ## Pricing and payment
 
-Each MCP control-plane request costs $0.001 through an MPP session. Public
-wildcard invocations are usage-metered: the gateway estimates Google invocation,
-CPU time, memory time, and response egress, applies the platform margin, and
-settles the measured amount through the payment session.
+Each MCP control-plane request costs $0.001 through an MPP session. Successful
+public wildcard invocations are usage-metered: the gateway estimates Google
+invocation, CPU time, memory time, and response egress, applies the platform
+margin, and settles the measured amount through the payment session.
 
 Build and persistent artifact/storage costs are not currently charged
 separately. Ask before deploying large source archives or repeatedly rebuilding
